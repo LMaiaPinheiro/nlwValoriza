@@ -14,7 +14,7 @@ import { Exclude } from "class-transformer";
 
   @Column()
   email: string;
-
+ 
  @Exclude()
   @Column()
   password: string;

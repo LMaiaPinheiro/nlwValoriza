@@ -10,7 +10,7 @@ import {
       await queryRunner.createTable(
         new Table({
           name: "compliments",
-          columns: [
+          columns: [ 
             {
               name: "id",
               type: "uuid",

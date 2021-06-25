@@ -16,7 +16,7 @@ export class CreateTags1624485312751 implements MigrationInterface {
                         name: "name",
                         type:"varchar",
                     },
-                    {
+                    { 
                         name:"created_at",
                         type:"timestamp",
                         default:"now()"

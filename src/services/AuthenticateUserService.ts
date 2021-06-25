@@ -23,7 +23,7 @@ class AuthenticateUserService{
     if(!passwordMatch){
       throw new Error("Email/Password incorrect")
     }
-
+ 
     const token = sign({
       email: user.email
     },"6dd0e57350be63c0486b8a9769696fcb",{ 

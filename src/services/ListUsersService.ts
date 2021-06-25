@@ -10,7 +10,7 @@ class ListUsersService{
     const users = await usersRepositories.find();
 
     return classToPlain(users)
-  }
+  } 
 
 
 }

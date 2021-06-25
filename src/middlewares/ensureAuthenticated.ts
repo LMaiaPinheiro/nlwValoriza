@@ -12,7 +12,7 @@ export function ensureAuthenticated(request:Request,response:Response,next:NextF
   if (!authToken){
     return response.status(401).end()
   }
-
+ 
   const [,token] = authToken.split(" ");
   try{
     const { sub } =verify(token,"6dd0e57350be63c0486b8a9769696fcb") as IPayload;

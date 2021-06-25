@@ -9,7 +9,7 @@ class ListUsersController{
 
     const listUserService = new ListUsersService(); 
     const users = await listUserService.execute();
-
+ 
     return response.json(users)
   }
 

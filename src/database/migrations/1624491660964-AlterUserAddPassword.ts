@@ -9,7 +9,7 @@ export class AlterUserAddPassword1624491660964 implements MigrationInterface {
                 name:"password",
                 type:"varchar",
                 isNullable:true,
-            })
+            }) 
         )
     }
 

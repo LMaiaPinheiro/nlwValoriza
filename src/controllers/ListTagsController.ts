@@ -8,7 +8,7 @@ class ListTagsController {
     const listTagsService = new ListTagsService()
 
     const tags = await listTagsService.execute()
-
+ 
     return response.json(tags)
   }
 }
